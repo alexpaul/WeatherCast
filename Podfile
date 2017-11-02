@@ -7,9 +7,6 @@ target 'WeatherCast' do
 
   # Pods for WeatherCast
   pod 'Alamofire'
-  pod 'Kingfisher'
-  pod 'Fabric'
-  pod 'Crashlytics'
 
   target 'WeatherCastTests' do
     inherit! :search_paths
