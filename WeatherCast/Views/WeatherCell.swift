@@ -30,7 +30,7 @@ class WeatherCell: UITableViewCell {
     fileprivate func commonInit() {
         Bundle.main.loadNibNamed("WeatherCell", owner: self, options: nil)
         contentView.addSubview(containerView)
-        containerView.backgroundColor = .yellow
+        containerView.backgroundColor = UIColor(red: 0.000, green: 0.671, blue: 0.867, alpha: 1.00)
         containerView.frame = bounds
         containerView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
     }

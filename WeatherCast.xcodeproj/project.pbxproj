@@ -17,7 +17,6 @@
 		577318731FAAADF000222D7F /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577318721FAAADF000222D7F /* Forecast.swift */; };
 		577318751FAAAE0700222D7F /* ForecastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577318741FAAAE0700222D7F /* ForecastViewModel.swift */; };
 		577318771FAAAE3500222D7F /* AerisWeatherAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577318761FAAAE3500222D7F /* AerisWeatherAPITests.swift */; };
-		5773187B1FAAB5ED00222D7F /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5773187A1FAAB5ED00222D7F /* Date+Extensions.swift */; };
 		5773187E1FAAC70300222D7F /* WeatherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5773187D1FAAC70300222D7F /* WeatherCell.xib */; };
 		577318801FAAC7E800222D7F /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5773187F1FAAC7E800222D7F /* WeatherCell.swift */; };
 		577318881FAAD86800222D7F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 577318871FAAD86800222D7F /* README.md */; };
@@ -52,7 +51,6 @@
 		577318721FAAADF000222D7F /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
 		577318741FAAAE0700222D7F /* ForecastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewModel.swift; sourceTree = "<group>"; };
 		577318761FAAAE3500222D7F /* AerisWeatherAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AerisWeatherAPITests.swift; sourceTree = "<group>"; };
-		5773187A1FAAB5ED00222D7F /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		5773187D1FAAC70300222D7F /* WeatherCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherCell.xib; sourceTree = "<group>"; };
 		5773187F1FAAC7E800222D7F /* WeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
 		577318871FAAD86800222D7F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
@@ -122,7 +120,6 @@
 				577318841FAAD7F500222D7F /* View Model */,
 				577318811FAAD7C500222D7F /* Views */,
 				577318821FAAD7D600222D7F /* View Controllers */,
-				577318891FAADAB300222D7F /* Extensions */,
 				577318861FAAD81300222D7F /* Storyboards */,
 				5773185C1FAAAD6000222D7F /* Info.plist */,
 			);
@@ -187,14 +184,6 @@
 				577318591FAAAD6000222D7F /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		577318891FAADAB300222D7F /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				5773187A1FAAB5ED00222D7F /* Date+Extensions.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 		F48B1FDE0B910DF5B3F006AA /* Pods */ = {
@@ -417,7 +406,6 @@
 				577318511FAAAD6000222D7F /* AppDelegate.swift in Sources */,
 				577318711FAAADC600222D7F /* AerisWeatherAPI.swift in Sources */,
 				577318751FAAAE0700222D7F /* ForecastViewModel.swift in Sources */,
-				5773187B1FAAB5ED00222D7F /* Date+Extensions.swift in Sources */,
 				577318801FAAC7E800222D7F /* WeatherCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
