@@ -116,14 +116,14 @@
 			children = (
 				577318501FAAAD6000222D7F /* AppDelegate.swift */,
 				577318871FAAD86800222D7F /* README.md */,
-				5773187A1FAAB5ED00222D7F /* Date+Extensions.swift */,
 				577318571FAAAD6000222D7F /* Assets.xcassets */,
-				577318861FAAD81300222D7F /* Storyboards */,
 				577318851FAAD7FF00222D7F /* Services */,
 				577318831FAAD7EC00222D7F /* Model */,
 				577318841FAAD7F500222D7F /* View Model */,
 				577318811FAAD7C500222D7F /* Views */,
 				577318821FAAD7D600222D7F /* View Controllers */,
+				577318891FAADAB300222D7F /* Extensions */,
+				577318861FAAD81300222D7F /* Storyboards */,
 				5773185C1FAAAD6000222D7F /* Info.plist */,
 			);
 			path = WeatherCast;
@@ -187,6 +187,14 @@
 				577318591FAAAD6000222D7F /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		577318891FAADAB300222D7F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5773187A1FAAB5ED00222D7F /* Date+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		F48B1FDE0B910DF5B3F006AA /* Pods */ = {
